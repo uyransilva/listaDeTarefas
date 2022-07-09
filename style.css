@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Caveat', cursive;
+font-family: 'El Messiri', sans-serif;*/
+
+body{
+    background-color: #d2f8ce;
+    text-align: center;
+}
+
+.geral{
+    margin-top: 30vh;
+    margin-left: 50vh;
+    margin-bottom: 20vh;
+    background-color: #fcf6d7;
+    
+    width: 600px;
+    height: 800px;
+
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+h1{
+    font-family:'El Messiri', sans-serif ;
+}
+
+.digitarTarefa{
+    max-width: 300px;
+    border-radius: 10px;
+    border: 3px solid #71b8f3;
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+    
+}
+
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.data{
+    margin-left: 10px;
+}
