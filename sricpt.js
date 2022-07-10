@@ -28,12 +28,17 @@ inputTexto.addEventListener('keydown', (evento) => {
     body.append(divGeral);
 
     inputTexto.value = '';
+    
+    boxLista.addEventListener('change', (evento) => {
+        if(evento.currentTarget.checked){
+            itemLista.style = 'text-decoration: line-through';            
+        }else{
+            itemLista.style = 'text-decoration: none';
+        }
+    })
 
-    boxLista.addEventListener('click', () => {
-        itemLista.style = 'text-decoration: line-through';
-    });
+});
 
-    boxLista.removeEventListener('selectionchange',() => {
+function checkboxCheck(evento) {
 
-    });
-})
+}
